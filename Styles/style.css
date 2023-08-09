@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(34,34,34);
+    font-family: 'DINPro';
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(145, 6, 98)
+}
+#title {
+    flex-direction: column;
+    line-height: 10px;
+
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white;
+}
+a :hover{
+   color: rgb(145, 6, 98);
+   transition: 0,3s all;
+
+}
+h1{
+    font-family: 'Arkitech Medium';
+    font-weight: 200;
+}
+main{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+margin-top: 50px;
+}
+h2{
+    font-family: 'Arkitech Medium';
+    font-size: 36px;
+    line-height: 10px;
+}
+span{
+    color:rgb(145, 6, 98)
+
+}
+p{ line-height: 20px;
+    max-width: 500px;
+    font-family: DINPro;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.btn{
+    height: 50px;
+    width: 50%;
+    background-color:rgb(145, 6, 98);
+    color: white;
+    font-weight: bold;
+
+}
+input{
+    margin-top:20px;
+    height: 20px;
+    padding: 15px;
+    border-radius:  20px;
+    border: none;
+    font-size: 15px;
+
+}
+
